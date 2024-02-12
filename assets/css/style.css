@@ -311,18 +311,50 @@ footer a {
   table td {
     padding: 1.5rem;
   }
-  iframe {
-    width: 50%;
+  #news {
     display: inline-block;
+  }
+  iframe {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 200px;
+    margin-inline: -2px;
   }
   section {
-    width: 50%;
-    border-radius: 15px;
     display: inline-block;
+    vertical-align: middle;
+    border-radius: 15px;
+    width: 50%;
+    height: 200px;
+    margin-inline: -2px;
+  }
+  section p {
+    font-size: 15px;
+  }
+  fieldset input {
+    font-size: 1.2rem;
+    width: 260px;
+    padding-block: 1.3rem;
+    padding-inline: 1.3rem;
   }
 
-  aside {
+  #related {
     display: inline-block;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0px;
+  }
+  .related {
+    display: inline-block;
+    width: 33%;
+    margin-inline: -2px;
+  }
+
+  footer {
+    padding-inline: 18rem;
+    font-size: 18px;
   }
 }
 
